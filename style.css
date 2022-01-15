@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Raleway:ital,wght@0,400;0,600;1,400&display=swap');
 
 body{
-    margin: 0;
+    margin: 0px;
 }
 
 .header-style{
@@ -33,6 +33,7 @@ body{
 }
 
 .nav-menu a{
+    max-width: 1200px;
     text-decoration: none;
     color: #7a7a7a;
     padding: 13px 38px;
@@ -56,29 +57,30 @@ body{
     margin: auto;
 }
 
-.fa-sort-down::before{
-    content: "\f0dd";
+.fa-sort-down:before {
+    color: #7a7a7a;
+    font-size: 14px;
+    text-align: center;
 }
 
 .page-container{
     position: relative;
-    padding-top: 20px;
+    padding-top: 1px;
     font-family: 'Raleway', sans-serif;
-    max-width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .home-body-title-container{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50.6px;
     margin-left: -15px;
     margin-right: -15px;
 }
 
 .home-body-title{
+    color: #252525;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: 400;
@@ -91,6 +93,172 @@ body{
     width: 40px;
     height: 1px;
     background-color: #252525;
+}
+
+.spacing-div{
+    margin-bottom: 105px;
+}
+
+.first-text{
+    max-width: 770px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.second-title{
+    color: #252525;
+    position: relative;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-top: 140px;
+    margin-bottom: 5px;
+}
+
+.second-home-container{
+    width: 1215px;
+    margin-bottom: 100px;
+}
+
+.home-img-one{
+    margin-top: 30px;
+    max-width: 370px;
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.home-img{
+    width: 100%;
+    margin: 5px 20px 10px 0px;
+}
+
+.third-home-container{
+    margin-bottom: 190px;
+}
+
+.third-title{
+    color: #252525;
+    position: relative;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.second-text{
+    margin-top: 30px;
+    max-width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.forth-fifth-title{
+    color: #252525;
+    position: relative;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-line-one{
+    max-width: 1170px;
+    height: 1px;
+    background-color: #252525;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-logo{
+    margin-left: 20px;
+}
+
+.footer-text{
+    position: absolute;
+    top: 2650px;
+    text-align: center;
+    width: 1170px;
+    font-family: 'Playfair Display', serif;
+    color: #7a7a7a;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.footer-text-link{
+    position: absolute;
+    top: 2674px;
+    text-align: center;
+    width: 1170px;
+    font-family: 'Playfair Display', serif;
+    color: #7a7a7a;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.footer-text-link a{
+    color: #5ed9e7;
+}
+
+.footer-buttons{
+    text-align: right;
+    max-width: 1170px;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.footer-button-a{
+    text-decoration: none;
+    padding: 2px 4px 2px 20px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #413f3f;
+}
+
+.footer-button-b{
+    text-decoration: none;
+    padding: 2px 4px 2px 4px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #413f3f;
+}
+
+footer{
+    display: block;
 }
 
 div{
