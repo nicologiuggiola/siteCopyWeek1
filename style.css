@@ -184,7 +184,7 @@ body{
 }
 
 .lostudio-img{
-    margin-bottom: 133.55px;
+    margin-bottom: 103.55px;
 }
 
 .text-one{
@@ -278,7 +278,7 @@ body{
 
 .footer-text-b{
     position: absolute;
-    top: 299%;
+    top: 302%;
     text-align: center;
     width: 1170px;
     font-family: 'Playfair Display', serif;
@@ -290,7 +290,7 @@ body{
 
 .footer-text-link-b{
     position: absolute;
-    top: 301%;
+    top: 304.5%;
     text-align: center;
     width: 1170px;
     font-family: 'Playfair Display', serif;
@@ -302,6 +302,12 @@ body{
 
 .footer-text-link a{
     color: #5ed9e7;
+    text-decoration: none;
+}
+
+.footer-text-link-b a{
+    color: #5ed9e7;
+    text-decoration: none;
 }
 
 .footer-buttons{
